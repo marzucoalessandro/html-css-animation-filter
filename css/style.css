@@ -7,11 +7,9 @@
 .ex-1-square:hover {
   background-color: red;
   transition: all 5s;
-
-
 }
 
-
+/* fine primo es */
 
 
 
@@ -20,6 +18,14 @@
     height: 100px;
     background: red;
 }
+
+
+.ex-2-square:active {
+  width: 100%;
+  transition: all 10s;
+}
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
