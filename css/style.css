@@ -145,9 +145,18 @@
 
 /* fine es 10 */
 
-.ex-11-icon:hover{
+.ex-11-icon:hover {
+  font-size: 60px;
+  animation: semi-giro 10s alternate-reverse;
+}
 
-  @keyframes
+@keyframes semi-giro {
+
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(180deg);}
+  75% {transform: rotate(270deg);}
+  100% {transform: rotate(0deg);}
+
 }
 
 
@@ -155,9 +164,6 @@
 
 
 
-.ex-11-icon {
-    font-size: 60px;
-}
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
