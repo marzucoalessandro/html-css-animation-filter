@@ -85,6 +85,10 @@
 
 /* fine quinto esercizio */
 
+.ex-6-img:hover {
+  filter: grayscale(5);
+}
+
 
 
 
