@@ -130,19 +130,24 @@
 
 .ex-10-icon {
     font-size: 60px;
-    animation-name: giro;
-    animation-direction: normal;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation: giro 1s linear infinite;
 }
 
 @keyframes giro {
 
-  0% {transform: rotate(0deg);}
+  0% {transform: rotate(1turn);}
   /* 25% {transform: rotate(90deg);}
   50% {transform: rotate(180deg);}
-  75% {transform: rotate(270deg);;} */
-  100% {transform: rotate(360deg);}
+  75% {transform: rotate(270deg);;}  */
+  /* 100% {transform: rotate(360deg);} */
+
+}
+
+/* fine es 10 */
+
+.ex-11-icon:hover{
+
+  @keyframes
 }
 
 
