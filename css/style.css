@@ -150,7 +150,7 @@
   animation-name: semi-giro;
   animation-duration: 5s;
   animation-iteration-count: 1;
-  animation-direction: alternate-reverse;
+  animation-direction: alternate;
 }
 
 @keyframes semi-giro {
