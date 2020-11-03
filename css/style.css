@@ -130,7 +130,7 @@
 
 .ex-10-icon {
     font-size: 60px;
-    animation: giro 1s linear infinite;
+    animation: giro 2s linear infinite;
 }
 
 @keyframes giro {
@@ -145,18 +145,20 @@
 
 /* fine es 10 */
 
-.ex-11-icon:hover {
+ .ex-11-icon:hover {
   font-size: 60px;
-  animation: semi-giro 10s alternate-reverse;
+  animation-name: semi-giro;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: alternate-reverse;
 }
 
 @keyframes semi-giro {
-
   0% {transform: rotate(0deg);}
+  25% {transform: rotate(90deg);}
   50% {transform: rotate(180deg);}
   75% {transform: rotate(270deg);}
   100% {transform: rotate(0deg);}
-
 }
 
 
