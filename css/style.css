@@ -43,7 +43,7 @@
   transition: all 10s;
 }
 
-
+/* fise terzo esercizio */
 
 
 
@@ -51,7 +51,24 @@
     width: 100px;
     height: 100px;
     background: red;
+    animation-name: puff;
+    animation-duration: 10s;
 }
+
+@keyframes puff {
+
+  from {width: 100px;}
+
+  to {width: 0}
+}
+
+
+
+
+
+
+
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
